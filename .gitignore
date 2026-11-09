@@ -1,0 +1,14 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore db/test files
+/db/test.*
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
