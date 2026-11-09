@@ -6,3 +6,19 @@ Processing by ApplicationController#hello as HTML
 Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3015)
 
 
+Started GET "/" for 77.79.156.71 at 2026-11-09 03:17:59 +0000
+Cannot render console from 77.79.156.71! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2075)
+
+
+Started GET "/static_pages/home" for 77.79.156.71 at 2026-11-09 03:18:21 +0000
+Cannot render console from 77.79.156.71! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.8ms | Allocations: 385)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2272)
+
+
