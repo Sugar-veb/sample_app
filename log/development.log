@@ -22,3 +22,19 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2272)
 
 
+Started GET "/" for 77.79.156.71 at 2026-11-09 03:26:33 +0000
+Cannot render console from 77.79.156.71! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 2075)
+
+
+Started GET "/static_pages/about" for 77.79.156.71 at 2026-11-09 03:26:44 +0000
+Cannot render console from 77.79.156.71! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (Duration: 0.4ms | Allocations: 285)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1881)
+
+
